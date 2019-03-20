@@ -42,4 +42,15 @@ button {
     border: solid 2px grey;
     display: block;
     padding: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
 }
