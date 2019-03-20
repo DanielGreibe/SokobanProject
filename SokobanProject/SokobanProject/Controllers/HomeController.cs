@@ -15,30 +15,31 @@ namespace SokobanProject.Controllers
             return View();
         }
 
-        public IActionResult Game()
-        {
+        public IActionResult Game(){
             ViewData["Message"] = "Your application Game page.";
 
             return View();
         }
 
-        public IActionResult LevelSelector()
-        {
+        public IActionResult LevelSelector(){
             ViewData["Message"] = "Your Level Selector page.";
 
             return View();
         }
 
-        public IActionResult Settings()
-        {
+        public IActionResult Settings(){
             ViewData["Message"] = "Your Settings page.";
 
             return View();
         }
 
+        public IActionResult Privacy(){
+            ViewData["Message"] = "Your Privacy page.";
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
+        public IActionResult Error(){
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }

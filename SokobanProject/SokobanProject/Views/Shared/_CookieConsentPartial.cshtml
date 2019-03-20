@@ -6,8 +6,7 @@
     var cookieString = consentFeature?.CreateConsentCookie();
 }
 
-@if (showBanner)
-{
+@if (showBanner){
     <nav id="cookieConsent" class="navbar navbar-default navbar-fixed-top" role="alert">
         <div class="container">
             <div class="navbar-header">
@@ -24,7 +23,6 @@
                     Use this space to summarize your privacy and cookie use policy.
                 </p>
                 <div class="navbar-right">
-                    <!--fejl-->
                     <a asp-controller="Home" asp-action="Privacy" class="btn btn-info navbar-btn">Learn More</a>
                     <button type="button" class="btn btn-default navbar-btn" data-cookie-string="@cookieString">Accept</button>
                 </div>
