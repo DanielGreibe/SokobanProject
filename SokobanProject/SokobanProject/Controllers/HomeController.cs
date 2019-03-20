@@ -17,14 +17,14 @@ namespace SokobanProject.Controllers
 
         public IActionResult Game()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your application Game page.";
 
             return View();
         }
 
         public IActionResult LevelSelector()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your Level Selector page.";
 
             return View();
         }
