@@ -31,6 +31,8 @@ namespace SokobanProject.Controllers
 
         public IActionResult Settings()
         {
+            ViewData["Message"] = "Your Settings page.";
+
             return View();
         }
 
