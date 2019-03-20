@@ -15,21 +15,21 @@ namespace SokobanProject.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Game()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult LevelSelector()
         {
             ViewData["Message"] = "Your contact page.";
 
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Settings()
         {
             return View();
         }
